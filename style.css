@@ -1,0 +1,189 @@
+.wrap {
+  background-color: rgba(25, 123, 234, 0.918);
+  font-family: "Poppins", sans-serif;
+  background-image: url(./aset/bg-header.png);
+}
+hr {
+  visibility: hidden;
+}
+.container {
+  padding: 10px;
+}
+.head {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+.header h1 {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.header {
+  color: white;
+  text-align: center;
+}
+.btn-1 button {
+  background-color: orange;
+  padding: 13px 20px;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+.materi h1 {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.materi {
+  text-align: center;
+  color: white;
+}
+.card-img {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+.bonus {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+p {
+  font-size: smaller;
+}
+.img-bonus {
+  margin-top: 20px;
+  color: black;
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  padding-top: 20px;
+}
+.btn button {
+  padding: 10px 100px;
+  border-radius: 40px;
+  border: none;
+  background-color: orange;
+}
+.bonus-p p {
+  text-align: center;
+  color: white;
+  font-size: smaller;
+}
+.bonus-p {
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+}
+.sulit {
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.img-sulit {
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 8px 6px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.img-sulit img {
+  width: 25%;
+}
+footer {
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+}
+.ancor {
+  color: yellow;
+}
+@media (min-width: 960px) {
+  .wrap {
+    margin: 0;
+    padding: 0;
+    background-image: url(./aset/bg-header.png);
+  }
+  .container {
+    padding: 15px 20px;
+    background-image: url(./aset/bg-body.png);
+    display: flex;
+    justify-content: center;
+  }
+  .p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 8px 11px;
+    gap: 13px;
+    text-align: center;
+    /* width: 56%; */
+  }
+  .pq {
+    width: 100%;
+  }
+  .gambar-materi {
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+  }
+  .card-img {
+    width: 30%;
+    font-size: small;
+    justify-content: center;
+  }
+
+  .img-bonus {
+    margin: 10px;
+    /* padding-left: 10px; */
+    width: 30%;
+    text-align: center;
+  }
+ .bonus {
+    padding: 20px 10px;
+ } 
+  .img-bonus img {
+    width:30%;
+  }
+  .img-sulit {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    gap: 10px;
+    padding: 10px 10px;
+    margin: 5px;
+  }
+  .img-sulit img {
+    width: 18%;
+  }
+  footer {
+    margin: 0;
+    padding: 0;
+  }
+  footer .satu h4 {
+    text-align: right;
+  }
+  footer .satu p {
+    text-align: left;
+  }
+  footer .pb {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+  footer .pb {
+    justify-content: space-between;
+  }
+  i {
+    font-size: x-large;
+  }
+  footer .pa {
+    text-align: right;
+  }
+}
